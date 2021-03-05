@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  user: user
+  password: password
+  host: db
+  port: 5432
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+
+development:
+  <<: *default
+  database: pracdb_development
+
+test:
+  <<: *default
+  database: pracdb_test
+
+production:
+  <<: *default
+  database: pracdb_production
