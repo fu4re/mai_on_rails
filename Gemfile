@@ -27,6 +27,11 @@ gem 'bootstrap-datepicker-rails'
 gem 'bootstrap-daterangepicker-rails'
 gem 'momentjs-rails'
 
+gem 'solidus', github: 'solidusio/solidus'
+gem 'solidus_i18n', github: 'solidusio-contrib/solidus_i18n', branch: 'master'
+
+gem 'execjs'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -60,3 +65,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'solidus_auth_devise'
