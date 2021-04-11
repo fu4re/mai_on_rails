@@ -384,6 +384,8 @@ GEM
     state_machines-activerecord (0.8.0)
       activerecord (>= 5.1)
       state_machines-activemodel (>= 0.8.0)
+    terminal-table (3.0.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
     terrapin (0.6.0)
       climate_control (>= 0.0.3, < 1.0)
     thor (1.1.0)
@@ -395,6 +397,7 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     underscore-rails (1.8.3)
+    unicode-display_width (1.7.0)
     warden (1.2.9)
       rack (>= 2.0.9)
     web-console (4.1.0)
@@ -439,6 +442,7 @@ DEPENDENCIES
   solidus_auth_devise
   solidus_i18n!
   spring
+  terminal-table
   turbolinks
   tzinfo-data
   underscore-rails

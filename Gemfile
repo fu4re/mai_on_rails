@@ -32,6 +32,9 @@ gem 'solidus_i18n', github: 'solidusio-contrib/solidus_i18n', branch: 'master'
 
 gem 'execjs'
 
+# Таблицы в терминале
+gem 'terminal-table'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password

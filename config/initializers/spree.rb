@@ -61,11 +61,11 @@ Spree.config do |config|
 end
 
 Spree::Frontend::Config.configure do |config|
-  config.locale = 'ru'
+  config.locale = 'en'
 end
 
 Spree::Backend::Config.configure do |config|
-  config.locale = 'ru'
+  config.locale = 'en'
 
   # Uncomment and change the following configuration if you want to add
   # a new menu item:
