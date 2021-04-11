@@ -18,7 +18,7 @@ gem 'turbolinks'
 
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
-gem 'material_design_icons'
+gem 'material_design_icons', git: 'git://github.com/barrymieny/material_design_icons.git', tag: 'v2.7.94'
 gem 'jquery-validation-rails'
 gem 'underscore-rails'
 gem 'mustache-js-rails'
